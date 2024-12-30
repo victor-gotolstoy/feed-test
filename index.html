@@ -1,0 +1,40 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Tolstoy feed for 0h297t412g3vt</title>
+    <style>
+    * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
+    .main {
+        width: 100vw; 
+        height: 600px;
+    }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <tolstoy-block
+            data-publish-id="0h297t412g3vt"
+            data-block-type="video-page"
+            data-nav-type="header"
+        ></tolstoy-block>
+    </div>
+    <script>
+function createTolstoyBlock() {
+  const script = document.createElement('script');
+  script.setAttribute('type', 'module');
+  script.setAttribute('defer', '');
+  script.setAttribute('src', 'https://widget.gotolstoy.com/we/widget.js');
+  script.setAttribute('data-app-key', '284bfb05-bac8-4d78-b437-e2003419c90e');
+
+  document.head.appendChild(script);
+}
+
+createTolstoyBlock();
+    </script>
+</body>
+</html>
